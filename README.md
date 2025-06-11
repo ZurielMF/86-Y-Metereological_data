@@ -5,7 +5,7 @@ A Python program that makes an ETL process trough data available at platforms: S
 
 ## Overview
 To reproduce ETL process, the script steps are described bellow:
-### 1.- On datascraper.py
+`rgb(R,G,B)` ### 1.- On datascraper.py
 1) Scrap meteorological data from [Mexico's Meteorological Service site (Servicio Meteorológico Nacional)](https://smn.conagua.gob.mx/es/climatologia/informacion-climatologica/informacion-estadistica-climatologica).
 2) Download data locally
 ###  2.- On data_cleaning.py
