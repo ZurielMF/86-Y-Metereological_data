@@ -5,10 +5,10 @@ A Python program that makes an ETL process trough data available at platforms: S
 
 ## Overview
 To reproduce ETL process, the script steps are described bellow:
-### On datascraper.py
+### 1.- On datascraper.py
 1) Scrap meteorological data from [Mexico's Meteorological Service site (Servicio Meteorológico Nacional)](https://smn.conagua.gob.mx/es/climatologia/informacion-climatologica/informacion-estadistica-climatologica).
 2) Download data locally
-### On data_cleaning.py
+###  2.- On data_cleaning.py
 1) Scan a selected folder for data files
 2) Clean raw TXT files
 3) Convert files to CSV
@@ -91,10 +91,6 @@ To reproduce ETL process, the script steps are described bellow:
 **Input**
 * directorio_entrada (String): folder where the raw files are located
 **Output: None**
-
-## Cite as:
-Mora-Félix et al (2025) J86-Year Meteorological Datasets from 50 Meteorological Stations in Sinaloa, Mexico with Daily, Monthly, and Yearly Resolutions. DOI: 10.17632/gb8jp62vm5.1
-
 
 ## Cite as:
 Mora-Félix et al (2025) J86-Year Meteorological Datasets from 50 Meteorological Stations in Sinaloa, Mexico with Daily, Monthly, and Yearly Resolutions. DOI: 10.17632/gb8jp62vm5.1
