@@ -13,7 +13,7 @@ To reproduce ETL process, the script steps are described bellow:
 2) Clean raw TXT files
 3) Convert files to CSV
 4) Add station, station name, state, municipality, status, longitude, latitude as columns on the CSV file
-5) Fill missing numerical data with statistical artifices
+5) Fill missing numerical data with statistical methods
 6) Fill missing dates
 7) Make daily group
 8) Make yearly-monthly group
@@ -58,7 +58,7 @@ To reproduce ETL process, the script steps are described bellow:
 
 **Output: None**
 
-**limpiar_txt_a_csv(archivo_txt, directorio_salida)** - This function receives a .txt file with a specific structure, then it cleans and processes it and saves it as a .csv file.
+**limpiar_txt_a_csv(archivo_txt, directorio_salida)** - This function receives a .txt file with a specific structure, then it cleans, processes and saves it as a .csv file.
 
 **Input**
 * archivo_txt (File): A .txt file with a specific structure.
