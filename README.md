@@ -20,7 +20,7 @@ To reproduce ETL process, the script steps are described bellow:
 9) make yearly group
 
 ## Functions (datascraper.py)
- `#0969DA`**download(url, filename)** - This function downloads a file from a specific URL and saves it to a determined filename.   
+ `#0969DA**download(url, filename)**` - This function downloads a file from a specific URL and saves it to a determined filename.   
 
 **Input**
 * url: string with the URL of the file to download
