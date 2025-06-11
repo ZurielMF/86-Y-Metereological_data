@@ -5,7 +5,7 @@ A Python program that makes an ETL process trough data available at platforms: S
 
 ## Overview
 To reproduce ETL process, the script steps are described bellow:
-`rgb(R,G,B)` ### 1.- On datascraper.py
+ ### 1.- On datascraper.py
 1) Scrap meteorological data from [Mexico's Meteorological Service site (Servicio Meteorológico Nacional)](https://smn.conagua.gob.mx/es/climatologia/informacion-climatologica/informacion-estadistica-climatologica).
 2) Download data locally
 ###  2.- On data_cleaning.py
@@ -20,7 +20,7 @@ To reproduce ETL process, the script steps are described bellow:
 9) make yearly group
 
 ## Functions (datascraper.py)
- **download(url, filename)** - This function downloads a file from a specific URL and saves it to a determined filename.   
+ 'rgb(R,G,B)'**download(url, filename)** - This function downloads a file from a specific URL and saves it to a determined filename.   
 
 **Input**
 * url: string with the URL of the file to download
