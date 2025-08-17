@@ -1,1 +1,16 @@
+User installation Guide V1
 
+To reproduce the generation of data files, you need to configure the development environment. Please follow the instructions below:
+1.- Install on your computer visual studio code or similar IDE.
+      https://code.visualstudio.com
+2.- Install the main libraries 
+    pip install pandas
+    pip install numpy 
+    pip install threading
+    pip install tkinter
+3.- Run GUI.py
+    Interface for downloading and transforming will be displayed. To do this, follow these steps in the interface:
+      1.- Create a folder where the files will be downloaded
+      2.- Click the scrape button and select the previously created folder
+      3.- Define the percentage of missing data allowed
+      4.- Select the folder where the data to be processed will be saved.
